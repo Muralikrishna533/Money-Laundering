@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # load the model and label encoder
-model = pickle.load(open('C:/Users/Krishna/xgb_model.pkl', 'rb'))
+model = pickle.load(open('xgb_model.pkl', 'rb'))
 
 # define function to preprocess user input
 def preprocess_input(payment, amount, oldbalanceOrg, newbalanceOrg, oldbalanceDest, newbalanceDest):
